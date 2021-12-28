@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Lukasz Rabalski website 2</title>
+    <link>https://rombix92.github.io/blog/tags/</link>
+    <description>Recent content in Tags on Lukasz Rabalski website 2</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://rombix92.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>assesment center</title>
+      <link>https://rombix92.github.io/blog/tags/assesment-center/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://rombix92.github.io/blog/tags/assesment-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geocoding</title>
+      <link>https://rombix92.github.io/blog/tags/geocoding/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://rombix92.github.io/blog/tags/geocoding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://rombix92.github.io/blog/tags/python/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://rombix92.github.io/blog/tags/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
