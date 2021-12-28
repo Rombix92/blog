@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Lukasz Rafalski website 2</title>
+    <title>Tags on Lukasz Rabalski website 2</title>
     <link>https://rombix92.github.io/blog/tags/</link>
-    <description>Recent content in Tags on Lukasz Rafalski website 2</description>
+    <description>Recent content in Tags on Lukasz Rabalski website 2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://rombix92.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -31,24 +31,6 @@
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
       <guid>https://rombix92.github.io/blog/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>documentation</title>
-      <link>https://rombix92.github.io/blog/tags/documentation/</link>
-      <pubDate>Thu, 29 Nov 2018 08:41:44 +0100</pubDate>
-      
-      <guid>https://rombix92.github.io/blog/tags/documentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://rombix92.github.io/blog/tags/tutorial/</link>
-      <pubDate>Thu, 29 Nov 2018 08:41:44 +0100</pubDate>
-      
-      <guid>https://rombix92.github.io/blog/tags/tutorial/</guid>
       <description></description>
     </item>
     

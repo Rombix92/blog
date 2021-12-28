@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lukasz Rabalski website on Lukasz Rabalski website 2</title>
-    <link>https://rombix92.github.io/blog/</link>
-    <description>Recent content in Lukasz Rabalski website on Lukasz Rabalski website 2</description>
+    <title>Encyklopedia on Lukasz Rabalski website 2</title>
+    <link>https://rombix92.github.io/blog/encyklopedia/</link>
+    <description>Recent content in Encyklopedia on Lukasz Rabalski website 2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://rombix92.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate><atom:link href="https://rombix92.github.io/blog/encyklopedia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R_Markdown</title>
       <link>https://rombix92.github.io/blog/encyklopedia/1_r_markdown/</link>
@@ -38,15 +38,6 @@ df_it_restaurants &amp;lt;- read.csv(&amp;#39;https://assets.datacamp.com/produc
       <guid>https://rombix92.github.io/blog/encyklopedia/3_statistics/</guid>
       <description>Logistic Regression  Matematyczna interpretacja modelu Graficzna interpretacja modelu  Bayesian Statistics - Introduction  Introduction Priors Contrasts and comparison Dealing with 2 parameter model Automatisation - BEST package Conclusions  Bayesian Statistics - Intermediate  Likelihood Posterior    Logistic Regression Markdown Tutorial
 Matematyczna interpretacja modelu Quiz correct answers: d. Hint: Remember, the coefficient in a logistic regression model is the expected increase in the log odds given a one unit increase in the explanatory variable.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://rombix92.github.io/blog/projects/2020-12-01-r-rmarkdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://rombix92.github.io/blog/projects/2020-12-01-r-rmarkdown/</guid>
-      <description>Sys.setenv(RETICULATE_PYTHON = &amp;quot;/Users/lrabalski1/miniforge3/envs/everyday_use/bin/python&amp;quot;) reticulate::py_config() ## python: /Users/lrabalski1/miniforge3/envs/everyday_use/bin/python ## libpython: /Users/lrabalski1/miniforge3/envs/everyday_use/lib/libpython3.8.dylib ## pythonhome: /Users/lrabalski1/miniforge3/envs/everyday_use:/Users/lrabalski1/miniforge3/envs/everyday_use ## version: 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:21:17) [Clang 11.1.0 ] ## numpy: /Users/lrabalski1/miniforge3/envs/everyday_use/lib/python3.8/site-packages/numpy ## numpy_version: 1.21.4 ## ## NOTE: Python version was forced by RETICULATE_PYTHON import pandas as pd import numpy as np #!pip install mpu --user import mpu import geopy.distance def radius(population): METRO_CITY_POPULATION_CONSTANT = -1/1443000 MIN_METRO_CITY_RADIUS = 10 MAX_METRO_CITY_RADIUS = 100 - MIN_METRO_CITY_RADIUS return MIN_METRO_CITY_RADIUS + MAX_METRO_CITY_RADIUS * (1 - np.</description>
     </item>
     
   </channel>

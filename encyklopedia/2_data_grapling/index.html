@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.91.0" />
-    <meta name="description" content="Lukasz Rabalski website">
+    <meta name="description" content="Methods for data explorations">
 <meta name="author" content="Lukasz Rabalski">
 
     <link rel="icon" href="/blog/images/favicon.png" type="image/png">
 
-    <title>R Markdown :: Lukasz Rabalski website 2</title>
+    <title>Data Exploration :: Lukasz Rabalski website 2</title>
 
     
     <link href="/blog/css/nucleus.css?1640699859" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/blog/tags/r-markdown/">
+  <body class="" data-url="/blog/encyklopedia/2_data_grapling/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -117,7 +117,7 @@
   
     
     <li data-nav-id="/blog/encyklopedia/" title="Encyklopedia" class="dd-item
-        
+        parent
         
         
         ">
@@ -166,7 +166,7 @@
  
   
     
-      <li data-nav-id="/blog/encyklopedia/2_data_grapling/" title="Data Exploration" class="dd-item ">
+      <li data-nav-id="/blog/encyklopedia/2_data_grapling/" title="Data Exploration" class="dd-item active">
         <a href="/blog/encyklopedia/2_data_grapling/">
         Data Exploration
         <i class="fas fa-check read-icon"></i>
@@ -217,7 +217,7 @@
     
     <li data-nav-id="/blog/projects/" title="Projects" class="dd-item
         
-        active
+        
         
         ">
       <a href="/blog/projects/">
@@ -351,7 +351,7 @@
             
           
           
-            <a href='/blog/'>Lukasz Rabalski website</a> > <a href='/blog/tags/'>Tags</a> > R Markdown
+            <a href='/blog/'>Lukasz Rabalski website</a> > <a href='/blog/encyklopedia/'>Encyklopedia</a> > Data Exploration
           
         
           
@@ -380,9 +380,7 @@
           
             <h1>
               
-                tag ::
-              
-              R Markdown
+              Data Exploration
             </h1>
           
 
@@ -390,16 +388,43 @@
 
 
 
+<script src="/blog/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<ul>
-	
-		<li><a href="/blog/projects/2020-12-01-r-rmarkdown/">Hello R Markdown</a></li>
-	
-</ul>
+<div id="data-grapling" class="section level1">
+<h1>Data Grapling</h1>
+<div id="eda" class="section level2">
+<h2>EDA</h2>
+<p>1.Take a look at data
+2.Visualize Data
+3.Count basic statistics</p>
+<p>One quick technique for jump-starting EDA is to examine all of the pairwise scatterplots in your data. This can be achieved using the pairs() function. Look for variables in the nyc data set that are strongly correlated, as those relationships will help us check for multicollinearity later on.</p>
+<pre class="r"><code>df_it_restaurants &lt;- read.csv(&#39;https://assets.datacamp.com/production/repositories/845/datasets/639a7a3f9020edb51bcbc4bfdb7b71cbd8b9a70e/nyc.csv&#39;)
+pairs(df_it_restaurants %&gt;% select(-Restaurant))</code></pre>
+<p><img src="/blog/encyklopedia/2_Data_Grapling_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>
+<div id="missing-data" class="section level2">
+<h2>Missing Data</h2>
+<p>NA = Not Available
+NaN = Not a Number</p>
+<pre class="r"><code>library(&#39;datasets&#39;)
+
+df_airquality &lt;- airquality
+
+NA|TRUE</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>NA|FALSE</code></pre>
+<pre><code>## [1] NA</code></pre>
+<pre class="r"><code>NA+NaN</code></pre>
+<pre><code>## [1] NA</code></pre>
+<pre class="r"><code>NaN+NA</code></pre>
+<pre><code>## [1] NA</code></pre>
+<pre class="r"><code>library(naniar)</code></pre>
+</div>
+</div>
 
 
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
@@ -434,8 +459,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -449,6 +472,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -466,6 +492,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -481,6 +508,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -537,8 +567,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/blog/encyklopedia/1_r_markdown/" title="R_Markdown"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/blog/encyklopedia/" title="Encyklopedia" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/blog/encyklopedia/3_statistics/" title="Statistics" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -578,3 +610,4 @@
 </script>
   </body>
 </html>
+
